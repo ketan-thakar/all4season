@@ -503,6 +503,8 @@ blockquote h3
 	border: 0;
 	position: relative;
 	z-index: 8;
+	background: url(../images/header-bg.png) repeat;
+	background-size: cover;
 }
 
 .gallery_bar
@@ -8077,4 +8079,83 @@ h1.product_title
 .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images, .woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary
 {
 	width: 100%;
+}
+
+/* AR479-22/02/2019 */
+.tour_place_price .tour_place_details { width: 100%; float: left; background: #fff; border: 1px solid #d6d9da; box-sizing: border-box; position: relative; margin-bottom: 20px;}
+.tour_place_details .tour_place_slide {width: 100%; display: flex; align-items: center;}
+.tour_place_details .custom-col-md-4 { width: 25%; flex: 1; text-align: center; padding: 0 15px; box-sizing: border-box;}
+.tour_place_details .custom-col-md-8 { width: 75%; height: 500px; flex: none; background: #f7f7f7; box-sizing: border-box;}
+.tour_place_details .flex-slider { position: relative; height: 100%;}
+.tour_place_details .flex-slider .flex-viewport { height: 100%; }
+.tour_place_details .flex-slider .flex-control-nav { position: absolute; bottom: 0px; }
+.tour_place_details .flex-direction-nav a { opacity: 1; }
+.tour_place_details .flex-control-paging li a { border-color: #fff; }
+.tour_place_details .flex-control-paging li a.flex-active { background: #fff; }
+
+.tour_place_details .flex-slider .slides li img { width: 100%; }
+.tour_place_details .place-details h4 { text-transform: uppercase; font-size: 20px; font-weight: 300; color: #000;}
+.tour_place_details .place-details h2 { text-transform: uppercase; font-size: 30px; font-weight: 700; color: #01489a; letter-spacing: 1px; line-height: normal;}
+.tour_place_details .place-details p { text-transform: uppercase; font-size: 24px; font-weight: 300; color: #000;}
+.tour_place_details .place_location_price { padding: 20px; border-top: 1px solid #d6d9da; width: 100%; float: left; box-sizing: border-box;}
+.place_location_price .custom-col-40 { width: 45%; float: left;}
+.place_location_price .custom-col-60 { width: 55%; float: left;}
+.place_location_price .location-details .place-name i { color: #01489a;}
+.place_location_price .location-details .place-name { font-size: 16px; color: #000; font-weight: normal;}
+.place_location_price .location-details h3 { line-height: normal; margin-top: 10px; margin-bottom: 0px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 18px; font-weight: 600;}
+.place_location_price .location-details p  { line-height: normal; margin-top: 0; margin-bottom: 0px; color: #000;}
+.place_location_price .price-details { padding: 0px; list-style: none; }
+.place_location_price .price-details li { float: right; }
+.place_location_price .price-details .offer_view { border-left: 1px solid #d6d9da; padding-left: 15px; padding-bottom: 10px;}
+.place_location_price .price-details .offer_view span { display: block; background: #d778a2; color: #fff; font-size: 12px; padding: 4px 8px; border-radius: 4px; margin-bottom: 10px;}
+.place_location_price .price-details .offer_view button.btn { background: #01489a; color: #fff; border: none; border-radius: 4px; padding: 12px 16px; font-size: 16px; cursor: pointer;}
+
+.place_location_price .price-details .final_value { padding-right: 15px; }
+.place_location_price .price-details .final_value span { font-size: 14px; line-height: normal; color: #000;}
+.place_location_price .price-details .final_value label { font-size: 40px; line-height: normal;}
+.place_location_price .price-details .final_value label span { font-size: 12px; }
+.place_location_price .price-details .final_value p 	{ font-size: 14px; font-weight: 600; line-height: normal; color: #000;}
+
+/* AR479-27/02/2019 */
+/*.pp_tour_search .page_content_wrapper { background: #01489a; display: table; padding: 20px; box-sizing: border-box;}
+.pp_tour_search .tour_search_wrapper .one_fourth { margin: 0px; box-sizing: border-box; float: left; padding-right: 10px;}
+.pp_tour_search .tour_search_wrapper .one_fourth.last { margin-right: 0px; width: 16%; float: right;}
+.pp_tour_search .tour_search_wrapper .one_fourth input[type=text] { width: 100%; box-sizing: border-box; background: #346dae; color: #fff; border: 0px; border-radius: 20px; padding: 10px 20px; font-size: 14px;}
+.pp_tour_search .tour_search_wrapper .one_fourth label { margin-bottom: 6px; color: #fff; font-size: 12px;}
+.pp_tour_search .tour_search_wrapper .one_fourth:first-child { width: 336px; }
+.pp_tour_search .tour_search_wrapper .one_fourth:nth-child(2) { width: 284px; }
+.pp_tour_search .tour_search_wrapper .one_fourth:nth-child(3) { width: 146px; }
+.pp_tour_search .start_date_input, .pp_tour_search .end_date_input { width: 132px; float: left;}
+.pp_tour_search .start_date_input i, .pp_tour_search .end_date_input i { right: 15px;  color: #fff;}
+.pp_tour_search .tour_search_wrapper input[type=submit]#tour_search_btn { margin-top: 26px; height: 36px; background: #1abc9c; color: #fff; border: 0;}
+
+.pp_tour_search .one_fourth input::-webkit-input-placeholder { color: #fff; }
+.pp_tour_search .one_fourth input::-moz-placeholder { color: #fff; }
+.pp_tour_search .one_fourth input:-ms-input-placeholder { color: #fff; }
+.pp_tour_search .one_fourth input:-moz-placeholder { color: #fff; }*/
+/* AR479-27/02/2019 */
+
+
+@media ( min-width: 768px) and ( max-width: 991px) {
+	.place_location_price .custom-col-40 { width: 40%; }
+	.place_location_price .custom-col-60 { width: 60%; }
+	.tour_place_details .custom-col-md-8 { height: auto; }
+}
+@media ( min-width: 320px) and ( max-width: 767px) {
+	.tour_place_details .custom-col-md-4 { display: none; }
+	.tour_place_details .custom-col-md-8 { width: 100%; }
+	.tour_place_details .tour_place_slide { display: block;}
+	.tour_place_slide .place-details { padding: 10px 0; }
+	.tour_place_details .place_location_price { padding: 10px; }
+	.place_location_price .custom-col-40, .place_location_price .custom-col-60 { width: 100%; }
+	.place_location_price .location-details h3 { white-space: normal; font-size: 16px;}
+	.place_location_price .price-details li { float: left; width: 100%; padding: 0px !important; }
+	.place_location_price .price-details .offer_view span { position: absolute; top: 10px; left: 10px; font-size: 10px; padding: 2px 4px;}
+	.place_location_price .price-details .offer_view button.btn { display: none; }
+	.place_location_price .price-details .final_value { margin-top: 20px; }
+	.place_location_price .price-details .final_value label { font-size: 24px; }
+	.tour_place_details .custom-col-md-8 { height: auto; }
+	.top_bar.hasbg #mobile_nav_icon { border-color: #fff !important;}
+	.top_bar.fixed.hasbg #mobile_nav_icon { border-color: #000 !important; }
+	.top_bar.fixed { position: fixed !important; }
 }

@@ -252,6 +252,13 @@
 	 */
 
 	wp_footer();
+if(is_front_page()){	
 ?>
+<script type="text/javascript">
+jQuery('.flex-slider').flexslider({
+	animation: "slide"
+});	
+</script>
+<?php } ?>
 </body>
 </html>
